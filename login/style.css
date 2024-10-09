@@ -51,7 +51,12 @@ body {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: var(--box-shadow);
-    border: 1px solid var(--fcmb-purple);
+    /* border: 1px solid var(--fcmb-purple); */
+}
+
+.header-icon i {
+    font-size: 2rem;
+    color: var(--dark);
 }
 
 .login-header {
@@ -71,7 +76,7 @@ body {
 }
 
 .login-form {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,8 +123,10 @@ body {
 }
 
 .visible {
+    color: var(--dark);
     position: absolute;
     bottom: 25px;
     right: 10px;
+    font-size: .8rem;
     cursor: pointer;
 }
