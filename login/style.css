@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*,
+**::after 
+**::before {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --dark: #202020;
+    --text-muted: #929292;
+    --fcmb-purple: #5e2e9e;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "DM Sans";
+}
+
+body {
+    height: 100vh;
+    font-family: "DM Sans", sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-bg {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 350px;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2)
+}
+
+.login-header {
+    text-align: center;
+}
+
+.login-header h4 {
+    color: var(--dark);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.login-header p {
+    color: var(--dark);
+    font-size: .9rem;
+    margin-top: 2px;
+}
+
+.login-form {
+    margin-top: 1rem;
+}
+
+.login-form .login-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .login-input label {
+    color: var(--dark);
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: .3rem;
+}
+
+.login-form .login-input input {
+    background: transparent;
+    width: 30vw;
+    margin-bottom: .8rem;
+    padding: .6rem .4rem;
+    font-family: "DM Sans", sans-serif;
+    border: 1px solid var(--text-muted);
+    border-radius: .4rem;
+}
+
+.login-form button {
+    width: 30vw;
+    background-color: var(--fcmb-purple);
+    color: var(--white);
+    font-family: "DM Sans" sans-serif;
+    padding: .6rem .4rem;
+    border: none;
+}
