@@ -34,7 +34,7 @@ body {
 }
 
 .container {
-    height: 90vh;
+    height: 94vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,6 @@ body {
     border-radius: 1rem;
     box-shadow: var(--box-shadow);
     border: 1px solid var(--fcmb-purple);
-    
 }
 
 .login-header {
