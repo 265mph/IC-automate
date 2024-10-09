@@ -104,6 +104,11 @@ body {
     border-radius: .4rem;
 }
 
+.login-input input:focus {
+    outline: none;
+    border: 2px solid var(--fcmb-purple);
+}
+
 .login-form button {
     width: 100%;
     background-color: var(--fcmb-purple);
