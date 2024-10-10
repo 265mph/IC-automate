@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --dark: #202020;
+    --text-muted: #929292;
+    --fcmb-purple: #54278d;
+
+    --body-bg: #f9f9f9;
+    --box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    --button-shadow: 0 0.1rem 0.2rem #ababab;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    min-height: 100dvh;
+    grid-template-columns: auto 1fr;
+}
