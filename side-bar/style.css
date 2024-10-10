@@ -53,16 +53,35 @@ svg {
 
 #sidebar >ul > li:first-child {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-bottom: 1rem;
     padding: .6rem .3rem;
 }
 
+.logo-section {
+    position: relative;
+}
+
 .logo-section .logo {
     color: var(--dark);
+    margin-left: 0.84rem;
     font-size: 1.2rem;
     font-weight: 900;
     font-family: 'DM Sans';
+}
+
+.logo-section button {
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--hover-bg);
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: -0.1rem;
+    right: -1.55rem;
+    box-shadow: var(--button-shadow);
 }
 
 #sidebar a, #sidebar .dropdown-btn, #sidebar .logo-section {
