@@ -16,7 +16,7 @@
     --white: #fff;
     --dark: #202020;
     --text-muted: #929292;
-    --fcmb-purple: #5e2e9e;
+    --fcmb-purple: #54278d;
 
     --body-bg: #f9f9f9;
     --box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
@@ -57,6 +57,11 @@ body {
 .header-icon i {
     font-size: 2rem;
     color: var(--dark);
+}
+
+.header-icon img {
+    width: 49px;
+    margin-bottom: .5rem;
 }
 
 .login-header {
