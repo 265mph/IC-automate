@@ -97,10 +97,16 @@ svg {
     transition: 300ms ease-in-out;
 }
 
+#sidebar a:hover svg,
+#sidebar .dropdown-btn:hover svg {
+    fill: var(--fcmb-purple);
+    transition: fill 300ms ease-in-out;
+}
+
 #sidebar .sub-menu {
     display: grid;
     grid-template-rows: 0fr;
-    margin-left: 1.5rem;
+    margin-left: 2.4rem;
     transition: 350ms ease-in-out;
 }
 
