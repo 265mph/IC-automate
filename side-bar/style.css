@@ -37,6 +37,9 @@ main {
 
 #sidebar {
     background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     width: 14rem;
     padding: 5px .8rem;
@@ -110,7 +113,8 @@ svg {
 }
 
 #sidebar a span, 
-#sidebar .dropdown-btn span {
+#sidebar .dropdown-btn span,
+#sidebar .profile-logout span {
     flex-grow: 1;
 }
 
@@ -130,7 +134,7 @@ svg {
 #sidebar .sub-menu {
     display: grid;
     grid-template-rows: 0fr;
-    margin-left: 2.4rem;
+    margin-left: 1.3rem;
     transition: 350ms ease-in-out;
 }
 
@@ -141,3 +145,25 @@ svg {
 #sidebar .sub-menu.show {
     grid-template-rows: 1fr;
 }
+
+#sidebar .sub-menu svg {
+    width: 1.2rem;
+}
+
+.profile-logout {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: .85em;
+    color: var(--dark);
+    font-family: 'DM Sans';
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .6rem;
+    border: 1px solid var(--text-muted);
+    cursor: pointer;
+}
+
+
+
+
