@@ -135,8 +135,8 @@ svg {
 #sidebar .sub-menu {
     display: grid;
     grid-template-rows: 0fr;
-    margin-left: 1.3rem;
-    transition: 350ms ease-in-out;
+    margin-left: 2.4rem;
+    transition: 30ms ease-in-out;
 }
 
 #sidebar .sub-menu > div {
@@ -162,20 +162,23 @@ svg {
 .user-profile, .logout {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: .3rem;
     padding: .85em;
     color: var(--dark);
     font-family: 'DM Sans';
     font-size: 1rem;
     font-weight: 600;
-    border-radius: .6rem;
-    border: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
     cursor: pointer;
 }
 
 .user-profile p {
     font-size: .7rem;
     color: var(--text-muted);
+}
+
+.user-profile h4 {
+    font-weight: 600;
 }
 
 
